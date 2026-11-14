@@ -11,6 +11,11 @@ python -m venv .venv
 pip install -r requirements.txt
 streamlit run app.py
 ```
+<img width="1272" height="674" alt="image" src="https://github.com/user-attachments/assets/0f1484c9-08cc-46b8-8a4d-d9b54f5508ef" />
+<img width="1276" height="633" alt="image" src="https://github.com/user-attachments/assets/a562ea2a-e0a9-47fa-82d4-93055e898c6c" />
+<img width="1278" height="630" alt="image" src="https://github.com/user-attachments/assets/bf4d718d-12cd-468b-8162-c1165d8b0fc8" />
+
+
 
 ## Current prototype scope
 
