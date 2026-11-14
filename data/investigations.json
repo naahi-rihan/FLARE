@@ -1,0 +1,335 @@
+[
+  {
+    "id": "BASS",
+    "name": "Burning and Suppression of Solids",
+    "project": "BASS",
+    "description": "Microgravity research on burning and suppression behavior of solid materials relevant to spacecraft fire safety.",
+    "objectives": [
+      "Investigate solid-material flammability",
+      "Study fire suppression behavior"
+    ],
+    "fuel_category": "solid",
+    "fuel_materials": [
+      "Solid materials; specific specimen details require source verification"
+    ],
+    "oxygen_pct": null,
+    "pressure_psi": null,
+    "airflow_m_s": null,
+    "gravity_regime": "microgravity",
+    "hardware": "Microgravity Science Glovebox (MSG)",
+    "sensors": [],
+    "measurements": [],
+    "safety_pillars": [
+      "prevention",
+      "suppression"
+    ],
+    "relevance_notes": "Directly relevant to material selection and suppression; atmospheric test values must be extracted from individual records.",
+    "source_url": "https://psi.nasa.gov/",
+    "doi": null,
+    "data_status": "metadata_only",
+    "field_evidence": {}
+  },
+  {
+    "id": "BASS-II",
+    "name": "Burning and Suppression of Solids-II",
+    "project": "BASS-II",
+    "description": "Follow-on investigation examining solid-material burning and suppression in microgravity.",
+    "objectives": [
+      "Investigate solid-material burning and suppression"
+    ],
+    "fuel_category": "solid",
+    "fuel_materials": [
+      "Solid materials; specimen-level details require verification"
+    ],
+    "oxygen_pct": null,
+    "pressure_psi": null,
+    "airflow_m_s": null,
+    "gravity_regime": "microgravity",
+    "hardware": "Microgravity Science Glovebox (MSG)",
+    "sensors": [],
+    "measurements": [],
+    "safety_pillars": [
+      "prevention",
+      "suppression"
+    ],
+    "relevance_notes": "Relevant to material flammability and suppression research.",
+    "source_url": "https://psi.nasa.gov/",
+    "doi": null,
+    "data_status": "metadata_only",
+    "field_evidence": {}
+  },
+  {
+    "id": "SAFFIRE-I",
+    "name": "Spacecraft Fire Safety Demonstration I",
+    "project": "SAFFIRE",
+    "description": "Spacecraft-scale fire safety demonstration conducted aboard an uncrewed cargo vehicle.",
+    "objectives": [
+      "Characterize flame spread and fire behavior in spacecraft-relevant conditions"
+    ],
+    "fuel_category": "solid",
+    "fuel_materials": [
+      "Large-scale fabric sample; exact composition requires source verification"
+    ],
+    "oxygen_pct": null,
+    "pressure_psi": null,
+    "airflow_m_s": null,
+    "gravity_regime": "microgravity",
+    "hardware": "Cygnus cargo spacecraft",
+    "sensors": [],
+    "measurements": [
+      "Video imagery"
+    ],
+    "safety_pillars": [
+      "prevention"
+    ],
+    "relevance_notes": "Important for understanding flame spread at larger scales; verify exact specimen and environmental conditions.",
+    "source_url": "https://psi.nasa.gov/",
+    "doi": null,
+    "data_status": "metadata_only",
+    "field_evidence": {}
+  },
+  {
+    "id": "SAFFIRE-II",
+    "name": "Spacecraft Fire Safety Demonstration II",
+    "project": "SAFFIRE",
+    "description": "Follow-on spacecraft fire safety experiment investigating material burning in a spacecraft environment.",
+    "objectives": [
+      "Study spacecraft material fire behavior"
+    ],
+    "fuel_category": "solid",
+    "fuel_materials": [
+      "Multiple material samples; verify from source"
+    ],
+    "oxygen_pct": null,
+    "pressure_psi": null,
+    "airflow_m_s": null,
+    "gravity_regime": "microgravity",
+    "hardware": "Cygnus cargo spacecraft",
+    "sensors": [],
+    "measurements": [
+      "Video imagery"
+    ],
+    "safety_pillars": [
+      "prevention"
+    ],
+    "relevance_notes": "Relevant to spacecraft material fire behavior. Do not assume all SAFFIRE runs share identical conditions.",
+    "source_url": "https://psi.nasa.gov/",
+    "doi": null,
+    "data_status": "metadata_only",
+    "field_evidence": {}
+  },
+  {
+    "id": "SAFFIRE-III",
+    "name": "Spacecraft Fire Safety Demonstration III",
+    "project": "SAFFIRE",
+    "description": "Third spacecraft fire safety demonstration investigating fire behavior in a cargo spacecraft.",
+    "objectives": [
+      "Study fire behavior in spacecraft-relevant geometry and conditions"
+    ],
+    "fuel_category": "solid",
+    "fuel_materials": [
+      "Material samples; verify from source"
+    ],
+    "oxygen_pct": null,
+    "pressure_psi": null,
+    "airflow_m_s": null,
+    "gravity_regime": "microgravity",
+    "hardware": "Cygnus cargo spacecraft",
+    "sensors": [],
+    "measurements": [
+      "Video imagery"
+    ],
+    "safety_pillars": [
+      "prevention"
+    ],
+    "relevance_notes": "Useful for spacecraft-scale fire behavior; verify individual test metadata.",
+    "source_url": "https://psi.nasa.gov/",
+    "doi": null,
+    "data_status": "metadata_only",
+    "field_evidence": {}
+  },
+  {
+    "id": "SAME",
+    "name": "Smoke and Aerosol Measurement Experiment",
+    "project": "SAME",
+    "description": "Microgravity study of smoke and aerosol measurement relevant to spacecraft fire detection.",
+    "objectives": [
+      "Evaluate smoke and aerosol measurement in microgravity"
+    ],
+    "fuel_category": "mixed",
+    "fuel_materials": [],
+    "oxygen_pct": null,
+    "pressure_psi": null,
+    "airflow_m_s": null,
+    "gravity_regime": "microgravity",
+    "hardware": "Instrument/hardware details require source verification",
+    "sensors": [
+      "Smoke and aerosol measurement instruments"
+    ],
+    "measurements": [
+      "Smoke/aerosol properties"
+    ],
+    "safety_pillars": [
+      "detection"
+    ],
+    "relevance_notes": "Directly relevant to smoke detection and characterization; detector performance claims require source-specific evidence.",
+    "source_url": "https://psi.nasa.gov/",
+    "doi": null,
+    "data_status": "metadata_only",
+    "field_evidence": {}
+  },
+  {
+    "id": "SAME-R",
+    "name": "Smoke and Aerosol Measurement Experiment-Return",
+    "project": "SAME-R",
+    "description": "Follow-on smoke and aerosol measurement research in microgravity.",
+    "objectives": [
+      "Investigate smoke/aerosol measurement for spacecraft fire detection"
+    ],
+    "fuel_category": "mixed",
+    "fuel_materials": [],
+    "oxygen_pct": null,
+    "pressure_psi": null,
+    "airflow_m_s": null,
+    "gravity_regime": "microgravity",
+    "hardware": "Instrument/hardware details require source verification",
+    "sensors": [
+      "Smoke and aerosol measurement instruments"
+    ],
+    "measurements": [
+      "Smoke/aerosol properties"
+    ],
+    "safety_pillars": [
+      "detection"
+    ],
+    "relevance_notes": "Relevant to detection-system research; exact sensor configuration and conditions must be verified.",
+    "source_url": "https://psi.nasa.gov/",
+    "doi": null,
+    "data_status": "metadata_only",
+    "field_evidence": {}
+  },
+  {
+    "id": "FLEX",
+    "name": "Flame Extinguishment Experiment",
+    "project": "FLEX",
+    "description": "Microgravity droplet-combustion experiments investigating flame extinguishment, including inert-gas dilution.",
+    "objectives": [
+      "Study flame extinction behavior",
+      "Investigate suppression by gas dilution"
+    ],
+    "fuel_category": "liquid",
+    "fuel_materials": [
+      "Liquid fuel droplets; verify fuel species per run"
+    ],
+    "oxygen_pct": null,
+    "pressure_psi": null,
+    "airflow_m_s": null,
+    "gravity_regime": "microgravity",
+    "hardware": "Multi-user Droplet Combustion Apparatus (MDCA) in Combustion Integrated Rack (CIR)",
+    "sensors": [],
+    "measurements": [
+      "Droplet/flame behavior; verify exact variables"
+    ],
+    "safety_pillars": [
+      "suppression"
+    ],
+    "relevance_notes": "Relevant to gaseous suppression mechanisms, but droplet flames are not equivalent to solid-material fires.",
+    "source_url": "https://psi.nasa.gov/",
+    "doi": null,
+    "data_status": "metadata_only",
+    "field_evidence": {}
+  },
+  {
+    "id": "CFI-G",
+    "name": "Cool Flames Investigation with Gases",
+    "project": "ACME / CFI-G",
+    "description": "Cool-flame combustion research with gaseous fuels and oxygen-nitrogen mixtures; challenge brief notes oxygen flow up to 85% in selected tests.",
+    "objectives": [
+      "Investigate cool-flame combustion with gaseous fuels"
+    ],
+    "fuel_category": "gas",
+    "fuel_materials": [
+      "Propane or other gaseous fuel; verify individual tests"
+    ],
+    "oxygen_pct": null,
+    "pressure_psi": null,
+    "airflow_m_s": null,
+    "gravity_regime": "microgravity",
+    "hardware": "ACME hardware in Combustion Integrated Rack (CIR)",
+    "sensors": [],
+    "measurements": [
+      "Flame behavior; verify exact variables"
+    ],
+    "safety_pillars": [
+      "prevention"
+    ],
+    "relevance_notes": "Potentially useful for high-oxygen combustion physics. The cited 85% refers to an oxygen-nitrogen stream in the burner configuration, not necessarily a chamber-wide atmosphere concentration.",
+    "source_url": "https://psi.nasa.gov/",
+    "doi": null,
+    "data_status": "partially_verified",
+    "field_evidence": {
+      "oxygen_pct": "Challenge description reports up to 85% oxygen in the oxygen-nitrogen mixture flowing from the spherical burner; do not generalize to chamber oxygen percentage."
+    }
+  },
+  {
+    "id": "SPICE",
+    "name": "Smoke Point In Co-flow Experiment",
+    "project": "SPICE",
+    "description": "Microgravity gaseous-fuel flame research relevant to smoke point and soot formation.",
+    "objectives": [
+      "Investigate smoke point and soot behavior in co-flow flames"
+    ],
+    "fuel_category": "gas",
+    "fuel_materials": [
+      "Gaseous fuel; verify fuel species per test"
+    ],
+    "oxygen_pct": null,
+    "pressure_psi": null,
+    "airflow_m_s": null,
+    "gravity_regime": "microgravity",
+    "hardware": "Microgravity Science Glovebox (MSG) fan-driven flow duct",
+    "sensors": [],
+    "measurements": [
+      "Flame and soot behavior; verify exact variables"
+    ],
+    "safety_pillars": [
+      "detection",
+      "prevention"
+    ],
+    "relevance_notes": "Potentially relevant to smoke characterization, but not a substitute for smoke detector validation.",
+    "source_url": "https://psi.nasa.gov/",
+    "doi": null,
+    "data_status": "metadata_only",
+    "field_evidence": {}
+  },
+  {
+    "id": "SLICE",
+    "name": "Structure & Liftoff In Combustion Experiment",
+    "project": "SLICE",
+    "description": "Microgravity flame structure and liftoff research.",
+    "objectives": [
+      "Study flame structure and liftoff behavior"
+    ],
+    "fuel_category": "gas",
+    "fuel_materials": [
+      "Gaseous fuel; verify source"
+    ],
+    "oxygen_pct": null,
+    "pressure_psi": null,
+    "airflow_m_s": null,
+    "gravity_regime": "microgravity",
+    "hardware": "Microgravity Science Glovebox (MSG) fan-driven flow duct",
+    "sensors": [],
+    "measurements": [
+      "Flame structure and liftoff; verify exact variables"
+    ],
+    "safety_pillars": [
+      "prevention"
+    ],
+    "relevance_notes": "Supports fundamental understanding of flame stability and airflow effects.",
+    "source_url": "https://psi.nasa.gov/",
+    "doi": null,
+    "data_status": "metadata_only",
+    "field_evidence": {}
+  }
+]

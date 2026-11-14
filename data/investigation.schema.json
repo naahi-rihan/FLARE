@@ -1,0 +1,134 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "FLARE NASA PSI Investigation Record",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "project",
+    "safety_pillars",
+    "source_url",
+    "data_status"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "project": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "objectives": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "fuel_category": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "solid",
+        "liquid",
+        "gas",
+        "mixed",
+        null
+      ]
+    },
+    "fuel_materials": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "oxygen_pct": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0,
+      "maximum": 100
+    },
+    "pressure_psi": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "airflow_m_s": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "gravity_regime": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "hardware": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "sensors": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "measurements": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "safety_pillars": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "prevention",
+          "detection",
+          "suppression"
+        ]
+      }
+    },
+    "relevance_notes": {
+      "type": "string"
+    },
+    "source_url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "doi": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "data_status": {
+      "enum": [
+        "verified",
+        "partially_verified",
+        "metadata_only",
+        "needs_review"
+      ]
+    },
+    "field_evidence": {
+      "type": "object",
+      "description": "Field-level citations or source excerpts; leave unknown values null."
+    }
+  },
+  "additionalProperties": false
+}
